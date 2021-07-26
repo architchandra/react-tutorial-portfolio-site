@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 
@@ -6,7 +7,14 @@ const Portfolio = (props) => {
   return (
     <div>
       <h2>Portfolio</h2>
-      <p>Portfolio ID is { props.match.params.id }</p>
+      <ul>
+        <li>
+          <Link to="/portfolio/1">Project One</Link>
+        </li>
+        <li>
+        <Link to="/portfolio/2">Project Two</Link>
+        </li>
+      </ul>
     </div>
   );
 };
