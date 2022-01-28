@@ -1,0 +1,2 @@
+# React Tutorial - Portfolio Site
+A dummy portfolio site created as a part of Andrew Mead's React [course](https://www.udemy.com/course/react-2nd-edition/) to understand how [React Router](https://reactrouter.com/) works.
